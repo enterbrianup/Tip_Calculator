@@ -1,0 +1,104 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aliceblue(223, 4, 4);
+}
+body{
+   background: aliceblue;
+}
+h1{
+    margin: auto;
+}
+.wrapper{
+    /* color: blanchedalmond; */
+   
+    background: rgb(84, 84, 238);
+    height: 400px;
+    width: 360px;
+
+    border-radius: 1rem;
+    padding: 1.3rem;
+    margin: 100px auto;
+
+}
+#topCointer{
+    margin-top: 10rem;
+
+}
+.container{
+    margin-top: 1.4rem;
+}
+.title{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.inputContainer{
+    background-color: #444c86;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+
+}
+#billTotalInput,#tipInput{
+  font-size: 1.2rem;
+  background:none;
+  border: none;
+  outline: none;
+  padding:none;
+}
+/* .inputPercentage{
+    background-color: #353959;
+} */
+.buttonContainer{
+    border-radius: 100px;
+    background: #444c88;
+    display: grid;
+    place-items: center;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+
+}
+.splitButton{
+    background: none;
+    border: none;
+
+}
+
+.controls{
+    display: flex;
+    align-items: center;;
+ }
+ .splitButton{
+    font-size:1rem ;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+ }
+
+ .buttonText{
+    color: #353959 !important;
+ }
+ .splitAmount{
+    font-size: 1.6rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+ }
+ #bottom{
+    display: flex;
+    justify-content: space-between;
+ }
+.totalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.total{
+    font-size: 2rem;
+}
+/* .Tippercentage{
+font-weight: bold;
+    margin-bottom: 1rem;
+} */
